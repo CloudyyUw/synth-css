@@ -1,0 +1,31 @@
+{
+  "name": "synth-css",
+  "version": "0.0.2",
+  "description": "Extended css",
+  "main": "index.js",
+  "bin": {
+    "synth": "bin/synth.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CloudyyUw/synth-css.git"
+  },
+  "keywords": [
+    "css",
+    "compiler"
+  ],
+  "author": "CloudyyUw",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "snapdragon": "^0.12.1"
+  },
+  "files": [
+    "src",
+    "bin",
+    "README.md"
+  ]
+}
